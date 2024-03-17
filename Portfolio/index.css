@@ -1,0 +1,206 @@
+body{
+    margin : 0 0 ;
+    font-family: Inter,sans-serif;
+    overflow-y: auto;
+
+}
+main{
+    display : flex ;
+    flex-direction: column;
+    /* width : vw; */
+}
+navbar{
+    width:100%;
+    font-size: 3em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* border-bottom:2px solid rgb(206, 199, 199); */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: Tilt Warp;
+    z-index :1000;
+}
+.navbar-2{
+    display :flex ;
+    justify-content : flex-end;
+    gap : 50px;
+    padding : 10px 40px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding : 0 50px;
+}
+header{
+    display: flex;
+    height: 80vh;
+}
+.divider{
+    display: flex; 
+    justify-content: center;
+}
+.divider .border{
+    width : 50% ;
+    border : 1px solid black;
+}
+.col-1{
+    width : 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1000;
+}
+.col-2{
+    width : 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding : auto auto;
+}
+intro{
+    margin-top: 50px;
+    margin-left: 80px;
+    /* margin-left: 80px; */
+    font-size: 3em;
+    border-right: 2px solid rgb(80, 75, 75);
+}
+.short-bio{
+    margin: 5px 80px;
+    font-size: 1.2em;  
+}
+.name{
+    font-family: "Fugaz One", sans-serif;
+}
+.about{
+    width:100%;
+    margin: 50px 10px;
+    /* margin-left: 10px; */
+    display:flex;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.skills{
+    width:100%;
+    margin: 20px 10px;
+    /* margin-left: 10px; */
+    display:flex;
+    flex-direction: column;
+}
+.projects{
+    width:100%;
+    margin: 20px 10px;
+    display:flex;
+    flex-direction: column;
+}
+.resume{
+    width:100%;
+    margin: 20px 10px;
+    display:flex;
+    flex-direction: column;
+}
+.project-desc{
+    display:flex;
+}
+.proj-1,.proj-2{
+    width : 50%;
+    padding : 0 10px ; 
+}
+.title{
+    padding: 10px 0 ; 
+    /* text-decoration: underline;
+    text-decoration-color: rgb(16, 182, 197) ; */
+    font-size: 2em;
+}
+.title-border{
+    width : 80px;
+    border: 2px solid rgb(16, 182, 197);
+}
+
+/* CSS */
+.button-heading {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-heading:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.skill-desc{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.skill-1,.skill-2,.skill-3,.skill-4{
+    font-size: 1.5em;
+    text-align: center;
+}
+.skill-title{
+    border : 1px solid black;
+    padding : 10px 10px ;
+    font-size: 2em;
+}
+
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* font-size: 1.5em; */
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+.projects h1{
+    font-family : "Fugaz One", sans-serif;
+    font-weight: 100;
+    text-decoration: underline;
+}
