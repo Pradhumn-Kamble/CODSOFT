@@ -1,0 +1,239 @@
+ body {
+    margin: 0 0;
+    font-family: Inter,sans-serif;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+ }
+ .container {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    /* background-image:url("./images/Polygon.svg"); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+  }
+
+section{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    z-index:1000;
+
+  
+  }
+navbar{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:2px solid rgb(240, 235, 235);
+    /* background-color:#26343d; */
+  }
+
+
+.button-login {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  /* height: 48px; */
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin : 5px 2px ;
+}
+
+.button-login:focus {
+  color: #171e29;
+}
+
+.button-login:hover {
+  border-color: rgb(4, 184, 37);
+  color: rgb(4, 184, 37);
+  fill: rgb(4, 184, 37);
+}
+
+.button-login:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-signUp {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  /* border-radius: 8px; */
+  border-style: none;
+  /* box-shadow: rgba(39, 174, 96, .15) 0 4px 9px; */
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* vertical-align: top; */
+  white-space: nowrap;
+  margin : 5px 5px ;
+}
+
+.button-signUp:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-signUp:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-signUp:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+content{
+    width:100vw;
+    min-height: 100%;
+    display:flex;
+
+    align-items:center;
+    justify-content:space-between;
+/*    transform:translateY(-50%);*/
+    gap:10%;
+    text-align :center;
+  }
+.col-1{
+    width : 100%;
+    height : 100%;
+    display: flex; 
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.col-2{
+    width : 100%;
+    height : 100%;
+    display: flex; 
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items: center;
+}
+.text{
+    color : #354E4F;
+    font-weight: bold;
+    font-size: 4em;
+}
+.text-2{
+    color : #354E4F;
+    font-weight: bold;
+    font-size: 2em;
+}
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 40px 50px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: #3ce055;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #9be9a7;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #9be9a7;
+}
+
+features{
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-between;
+    /* width :100%; */
+}
+.feat-1 ,.feat-2,.feat-3,.feat-4{
+    display :flex;
+    text-align: center;
+    width:100%;
+    /* border-bottom: 2px solid rgb(151, 144, 144); */
+    padding :20px 40px;
+}
+.feat-1 .col-1{
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.feat-2 .col-2{
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+.feat-3 .col-1{
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+.feat-4 .col-2{
+box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
